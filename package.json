@@ -1,0 +1,23 @@
+{
+  "name": "webiiilab2",
+  "version": "1.0.0",
+  "description": "Laboration i Webutveckling III",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Gulp"
+  ],
+  "author": "Björn Olsson",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-css": "^4.2.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^4.0.0",
+    "gulp-uglify": "^3.0.1"
+  },
+  "dependencies": {}
+}

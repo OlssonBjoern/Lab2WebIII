@@ -1,0 +1,65 @@
+/* Stylesheet for contact page*/
+
+/* Column */
+.mainpanel .bigleftcolumn h1 {
+	padding: 3% 6%;
+}
+
+.bigleftcolumn {
+	width: 69%;
+	float: left;
+	border-radius: 25px;
+	border: 0.1px solid #c4c8ce;
+	box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.bigleftcolumn h2 {
+	background-color: #e54747;
+}
+
+.bigleftcolumn h2, p {
+	padding: 3% 6%;
+}
+
+.smallrightcolumn{
+	width: 29%;
+	float: left;
+	margin-left: 1%;
+	border-radius: 25px;
+	border: 0.1px solid #c4c8ce;
+	box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.smallrightcolumn h3 {
+	font-size: 20px;
+}
+
+.smallrightcolumn h3, p {
+	padding: 5% 8%;
+}
+
+.waysofcontact {
+	margin-left: 10%;
+	width: 100%;
+	float:left;
+}
+
+.waysofcontact i {
+	padding: 3% 6%;
+}
+
+/*-----------------Footer-------------------*/
+
+.aboutfooter {
+	clear: left;
+	bottom: 0px;
+	margin-top: 45%;
+	background-color: #e54747;
+	text-align: center;
+}
+
+.aboutfooter p {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 2%;
+}

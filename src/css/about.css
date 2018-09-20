@@ -1,0 +1,45 @@
+/*Stylesheet for about.html*/
+
+/*-----------------Centercolumn-------------------*/
+
+.centercolumn {
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+	margin-top: 1%;
+	align-content: center;
+	border-radius: 25px;
+	border: 0.1px solid #c4c8ce;
+	box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.centercolumn h1 {
+	padding: 3% 2%;
+}
+
+.centercolumn h2,p {
+	padding: 3% 2%;
+	line-height: 1.6;
+}
+
+#aboutimg {
+	border-radius: 25px;
+	max-width: 960px;
+	width: 100%;
+}
+
+/*-----------------Footer-------------------*/
+
+.aboutfooter {
+	position: relative;
+	height: 100px;
+	margin-top: 2%;
+	background-color: #e54747;
+	text-align: center;
+}
+
+.aboutfooter p {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 2%;
+}
