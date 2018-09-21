@@ -2,6 +2,7 @@ const gulp      = require("gulp");
 var concat    = require("gulp-concat");
 const uglify    = require("gulp-uglify");
 const cleanCss  = require("gulp-clean-css");
+const imagemin  = require("gulp-imagemin");
 
 /*Flytta HTML*/
 gulp.task("copyhtml", function() {
@@ -25,11 +26,20 @@ gulp.task("concatminifyjs", function() {
         .pipe(gulp.dest("pub/js"));
 });
 
+/* Minifiera och flytta bildfiler */
+
+gulp.task("imagemin", function () {
+    gulp.src("src/images/*")
+        .pipe(imagemin())
+        .pipe(gulp.dest('pub/images'));
+});
+
 /* Check for updates among the files */
 gulp.task("watcher", function(){
     gulp.watch("src/*html", ['copyhtml']);
     gulp.watch("src/css/*.css", ['cleanCss']);
     gulp.watch("src/js/*.js", ['concatminifyjs']);
+    gulp.watch("src/images/*", ['imagemin']);
 });
 
-gulp.task("default", ["copyhtml", "cleanCss", "concatminifyjs", "watcher"]);
+gulp.task("default", ["copyhtml", "cleanCss", "concatminifyjs", "imagemin", "watcher"]);
