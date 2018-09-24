@@ -50,15 +50,15 @@
 
 /*-----------------Footer-------------------*/
 
-.aboutfooter {
+#contactfooter {
 	clear: left;
 	bottom: 0px;
-	margin-top: 45%;
+	margin-top: 50%;
 	background-color: #e54747;
 	text-align: center;
 }
 
-.aboutfooter p {
+#contactfooter p {
 	font-size: 20px;
 	font-weight: bold;
 	padding: 2%;

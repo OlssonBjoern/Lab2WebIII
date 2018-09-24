@@ -1,0 +1,32 @@
+@import 'partials/normalize';
+
+/*-------------------------------------------------------------------------*/
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Helvetica, Georgia;
+	height: 100%;
+}
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+h1 {
+	font-family: Verdana;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+@import 'partials/nav';
+
+@import 'partials/footer';

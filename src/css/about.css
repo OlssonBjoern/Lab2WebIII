@@ -28,12 +28,10 @@
 	width: 100%;
 }
 
-/*-----------------Footer-------------------*/
-
 .aboutfooter {
-	position: relative;
-	height: 100px;
-	margin-top: 2%;
+	clear: left;
+	bottom: 0px;
+	margin-top: 5%;
 	background-color: #e54747;
 	text-align: center;
 }
